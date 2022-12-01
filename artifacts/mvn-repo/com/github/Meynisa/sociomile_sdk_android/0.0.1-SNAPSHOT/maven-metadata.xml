@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.ivo</groupId>
+  <groupId>com.github.Meynisa</groupId>
   <artifactId>sociomile_sdk_android</artifactId>
   <versioning>
-    <lastUpdated>20221201085959</lastUpdated>
+    <lastUpdated>20221201092452</lastUpdated>
     <snapshot>
-      <timestamp>20221201.085959</timestamp>
+      <timestamp>20221201.092452</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20221201.085959-1</value>
-        <updated>20221201085959</updated>
+        <value>0.0.1-20221201.092452-1</value>
+        <updated>20221201092452</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20221201.085959-1</value>
-        <updated>20221201085959</updated>
+        <value>0.0.1-20221201.092452-1</value>
+        <updated>20221201092452</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
