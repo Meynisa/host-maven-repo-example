@@ -1,0 +1,261 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dexterous.flutterlocalnotifications",
+    "module": "flutter_local_notifications",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_local_notifications-0.0.1-debug.aar",
+          "url": "flutter_local_notifications-0.0.1-debug.aar",
+          "size": 78727,
+          "sha512": "e72808053159224e7db860855ead92379fd194d356ebab9752f79868a17500dfdc548649bda46c16a124706f36f0e8ac5918f79313cca437868178701a0475fa",
+          "sha256": "4b73d339618b0a514f7a1931a95cd59fc607596e64cedeff463888439c19dba8",
+          "sha1": "4fca6b0ae65663d408b922c8368d991c8b8e43b5",
+          "md5": "6e7cbfc91f9f6a6a2fa4ca58957d1f31"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.media",
+          "module": "media",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_local_notifications-0.0.1-debug.aar",
+          "url": "flutter_local_notifications-0.0.1-debug.aar",
+          "size": 78727,
+          "sha512": "e72808053159224e7db860855ead92379fd194d356ebab9752f79868a17500dfdc548649bda46c16a124706f36f0e8ac5918f79313cca437868178701a0475fa",
+          "sha256": "4b73d339618b0a514f7a1931a95cd59fc607596e64cedeff463888439c19dba8",
+          "sha1": "4fca6b0ae65663d408b922c8368d991c8b8e43b5",
+          "md5": "6e7cbfc91f9f6a6a2fa4ca58957d1f31"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_local_notifications-0.0.1-release.aar",
+          "url": "flutter_local_notifications-0.0.1-release.aar",
+          "size": 74350,
+          "sha512": "01456f7e33bb18f2dbf54ea307f5c24414f53c4ab3e1cc8ff1b7183632750abc754d05ce53da86cca6117eb4323d117d1aa90b8049b96c47c7b895239fd1677e",
+          "sha256": "151146a3d086c351d737dde424b50e1c7c6ef679196594b12b6cefa9bb5e7a2a",
+          "sha1": "668785a957ac50c309751d2530bbd1797d9df589",
+          "md5": "3cf1e3be2b5ad847461e049ab6e1e9c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.media",
+          "module": "media",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_local_notifications-0.0.1-release.aar",
+          "url": "flutter_local_notifications-0.0.1-release.aar",
+          "size": 74350,
+          "sha512": "01456f7e33bb18f2dbf54ea307f5c24414f53c4ab3e1cc8ff1b7183632750abc754d05ce53da86cca6117eb4323d117d1aa90b8049b96c47c7b895239fd1677e",
+          "sha256": "151146a3d086c351d737dde424b50e1c7c6ef679196594b12b6cefa9bb5e7a2a",
+          "sha1": "668785a957ac50c309751d2530bbd1797d9df589",
+          "md5": "3cf1e3be2b5ad847461e049ab6e1e9c7"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_local_notifications-0.0.1-profile.aar",
+          "url": "flutter_local_notifications-0.0.1-profile.aar",
+          "size": 74350,
+          "sha512": "57fa89a3e29609e61a57e6ea054770228021ab55a0f615d4823779f78261efdb0c3038d5ff388c6b100a78f8287e2efd278ec9a124baebcd423c58446ed73407",
+          "sha256": "5575007372d99808815198addd6ae93476396a7f5514cfb7197a501942774697",
+          "sha1": "080c0df4dab75739aa802c17259992e8a06abcdc",
+          "md5": "a5aeeb6236058a3c7e72edb9c9c83f20"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.media",
+          "module": "media",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_local_notifications-0.0.1-profile.aar",
+          "url": "flutter_local_notifications-0.0.1-profile.aar",
+          "size": 74350,
+          "sha512": "57fa89a3e29609e61a57e6ea054770228021ab55a0f615d4823779f78261efdb0c3038d5ff388c6b100a78f8287e2efd278ec9a124baebcd423c58446ed73407",
+          "sha256": "5575007372d99808815198addd6ae93476396a7f5514cfb7197a501942774697",
+          "sha1": "080c0df4dab75739aa802c17259992e8a06abcdc",
+          "md5": "a5aeeb6236058a3c7e72edb9c9c83f20"
+        }
+      ]
+    }
+  ]
+}
